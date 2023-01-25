@@ -1,0 +1,22 @@
+//Fonts
+$bodyFont: 'Montserrat', sans-serif; 
+
+
+//Colors
+$bodyColor:#E5E5E5;
+$cardColor: #FFFFFF;
+$textColor:#363636;
+
+
+@mixin buttonStyle ($background, $padding ){
+	background: $background;
+	border: none;
+	cursor: pointer;
+	font-family:$bodyFont;
+	color: $textColor;
+	padding:$padding;
+	font-weight: 700;
+	font-size: 16px;
+	text-decoration: none;
+	
+}

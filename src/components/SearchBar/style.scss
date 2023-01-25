@@ -1,0 +1,46 @@
+@import "../../Styles/variables.scss";
+
+.searchContainer{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 40px;
+	padding: 50px 0px 0px 0px;
+   div{
+		margin-bottom: 10px;
+	}
+	p{
+		font-weight: 600;
+      font-size: 16px;
+		margin: 0px 0px 10px 0px;
+	}
+}
+
+.search {
+	width: 45%;
+	overflow: hidden;
+	font-size: 20px;
+	display: flex;
+	flex-flow: row nowrap;
+	border: 1px solid #EAEAEA;
+   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.05);
+   border-radius: 5px;
+	background: $cardColor;
+}
+.search__button,
+.search__input {
+   border: none;
+   outline: none;
+	background: $cardColor;
+}
+.search__input {
+	width: 90%;
+}
+
+.search__button {
+	width: 10%;
+	font-size: 20px;
+	padding: 15px;
+	color: gray;
+	place-content: center;
+}
