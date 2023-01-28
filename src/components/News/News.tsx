@@ -15,9 +15,9 @@ export const News = ({ news }: any) => {
             </div>
             <div className="cardTitle">{news.title}</div>
             <p>{news.summary}</p>
-            {/* <Link to={`/${news.id}`}>
+            <Link to={`/${news.id}`}>
                <div className="btn">Read more</div>
-            </Link> */}
+            </Link>
          </div>
       </div>
    );
