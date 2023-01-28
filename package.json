@@ -1,6 +1,6 @@
 {
- "homepage":"http://MariiaKuzhydlo.github.io/news_app_task",
-  "name": "news_app_task",
+ "homepage":"http://MariiaKuzhydlo.github.io/",
+//   "name": "news_app_task",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
