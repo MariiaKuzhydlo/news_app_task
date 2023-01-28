@@ -13,7 +13,6 @@ export const NewsFullInfo = () => {
          .get(`https://api.spaceflightnewsapi.net/v3/articles/${params.id}`)
          .then((res) => {
             setData(res.data);
-            console.log(res.data);
          })
          .catch((err) => console.log(err));
    };
